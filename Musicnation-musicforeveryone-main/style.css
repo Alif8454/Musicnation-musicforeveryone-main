@@ -117,6 +117,7 @@ nav a {
   grid-template-columns: 0.8fr 1fr;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 .about-img {
   display: flex;
@@ -182,6 +183,8 @@ nav a {
 .card::-webkit-scrollbar-thumb:active {
   background-color: #56565f;
 }
+
+/* Footer */
 footer {
   margin-top: 200px;
   width: 100%;
@@ -194,6 +197,8 @@ footer {
   box-shadow: 0 0 128px 0 rgba(0, 0, 0, 0.1), 0 32px 64px -48px rgba(0, 0, 0, 0.5);
 }
 
+
+/* Mobile Responsive */
 @media screen and (max-width: 570px) {
   .container {
     padding: 27px 35px;
